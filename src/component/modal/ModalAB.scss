@@ -1,0 +1,133 @@
+.maincontainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnbox {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    height: 50vh;
+    width: 95vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.mainbtnbox{
+    width: 100%;
+    height: 100%;
+}
+
+.btndiv {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 50px;
+    padding: 10px 30px;
+}
+
+.Allbtn,
+.Usbtn,
+.close {
+    border: none;
+    background: #46139f;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.AllbtnB,
+.UsbtnB,
+.closeB {
+    border: none;
+    background: #ff7f50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.checkbox {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.contacts_ids {
+    margin: 10px;
+    padding: 20px 30px;
+    box-shadow: 5px 7px 15px rgba(0, 0, 0, 0.09);
+    width: 90%;
+    border-radius: 20px;
+}
+.idNub{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    overflow-y: scroll;
+    padding-top: 20px;
+}
+
+.idNub span {
+    font-size: 16px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.idNub span:hover {
+    color: gray;
+}
+
+.inputdiv{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.searchid{
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.closebtn{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-top: 10px;
+}
+.closebtn button{
+    border: none;
+    background: #46139f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+@media (max-width: 1280px) {
+    .idNub{
+        height: 100px;
+    }
+}

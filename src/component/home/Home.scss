@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+}
+.btnA{
+    border: none;
+    background: #46139f;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;  
+    font-size: 20px;
+    font-weight: 600;
+}
+.btnB{
+    border: none;
+    background: #ff7f50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer; 
+    font-size: 20px;
+    font-weight: 600;
+}
